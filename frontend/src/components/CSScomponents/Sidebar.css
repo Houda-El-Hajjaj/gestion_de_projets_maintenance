@@ -1,0 +1,33 @@
+/* Sidebar.css */
+.sidebar {
+
+    float: left;
+    width: 200px;
+    background-color: #0054A4;
+    min-height: 200vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Adjust as needed */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFF; /* Adjust text color as needed */
+  }
+  
+  .sidebar a:hover {
+    background-color: #007bff;
+     /* Change the background color on hover as needed */
+    color: #fff; /* Change the text color on hover as needed */
+  }
